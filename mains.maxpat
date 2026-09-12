@@ -13,6 +13,16 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-3",
+                    "maxclass": "newobj",
+                    "numinlets": 4,
+                    "numoutlets": 0,
+                    "patching_rect": [ 288.0, 615.0, 69.0, 22.0 ],
+                    "text": "qlab-bridge"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-103",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -71,7 +81,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 831.3559520244598, 43.05677971243858, 270.51285469532013, 34.0 ],
-                    "presentation_linecount": 3,
                     "text": "exponential rhythm gen"
                 }
             },
