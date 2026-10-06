@@ -47,7 +47,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-22",
-                    "index": 0,
+                    "index": 3,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -362,7 +362,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-12",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -373,7 +373,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-11",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -394,11 +394,11 @@
                 "box": {
                     "comment": "",
                     "id": "obj-6",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "bang" ],
                     "patching_rect": [ 380.70175075531006, 57.01754331588745, 30.0, 30.0 ]
                 }
             },
@@ -416,11 +416,11 @@
                 "box": {
                     "comment": "",
                     "id": "obj-3",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "int" ],
                     "patching_rect": [ 222.0, 52.0, 30.0, 30.0 ]
                 }
             },
@@ -1032,7 +1032,6 @@
                     "source": [ "obj-9", 0 ]
                 }
             }
-        ],
-        "autosave": 0
+        ]
     }
 }
