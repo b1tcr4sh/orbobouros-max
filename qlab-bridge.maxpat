@@ -78,7 +78,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 167.19576978683472, 43.38624405860901, 50.79365158081055, 20.0 ],
+                    "patching_rect": [ 167.19576978683472, 43.38624405860901, 51.0, 20.0 ],
                     "text": "cue pos"
                 }
             },
@@ -101,7 +101,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 262.38662099838257, 199.99999022483826, 112.0, 22.0 ],
-                    "presentation_linecount": 2,
                     "text": "/workspace/#1/stop"
                 }
             },
@@ -152,7 +151,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-28",
-                    "index": 0,
+                    "index": 4,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -218,7 +217,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-8",
-                    "index": 0,
+                    "index": 3,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -230,7 +229,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-7",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -242,7 +241,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-6",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -331,7 +330,6 @@
                     "source": [ "obj-8", 0 ]
                 }
             }
-        ],
-        "autosave": 0
+        ]
     }
 }
