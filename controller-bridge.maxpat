@@ -277,11 +277,13 @@
                 "box": {
                     "fontface": 0,
                     "id": "obj-81",
+                    "linecount": 12,
                     "maxclass": "o.display",
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 938.3928481936455, 89.28571343421936, 180.0, 33.0 ]
+                    "patching_rect": [ 938.3928481936455, 89.28571343421936, 180.0, 175.0 ],
+                    "text": "/led/set/state : blob(-56, -56, -56, -1, -1, -1, -1, -1, -1, -1, -1, -1, -56, -56, -56, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1)"
                 }
             },
             {
@@ -301,8 +303,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 746.710519194603, 168.61702007055283, 93.0, 22.0 ],
-                    "text": "/led/all $1 $2 $5"
+                    "patching_rect": [ 746.710519194603, 168.61702007055283, 110.0, 22.0 ],
+                    "text": "/led/all $1 $2 $3 $4"
                 }
             },
             {
@@ -374,7 +376,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-22",
-                    "index": 0,
+                    "index": 3,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -591,7 +593,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-12",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -602,7 +604,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-11",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -623,11 +625,11 @@
                 "box": {
                     "comment": "",
                     "id": "obj-6",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "bang" ],
                     "patching_rect": [ 380.70175075531006, 57.01754331588745, 30.0, 30.0 ]
                 }
             },
@@ -645,11 +647,11 @@
                 "box": {
                     "comment": "",
                     "id": "obj-3",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "int" ],
                     "patching_rect": [ 222.0, 52.0, 30.0, 30.0 ]
                 }
             },
@@ -1312,7 +1314,6 @@
                     "source": [ "obj-91", 0 ]
                 }
             }
-        ],
-        "autosave": 0
+        ]
     }
 }
