@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 77.0, 1110.0, 713.0 ],
+        "rect": [ 34.0, 77.0, 1468.0, 713.0 ],
         "boxes": [
             {
                 "box": {
@@ -25,11 +25,11 @@
                 "box": {
                     "comment": "color (r, g, b)",
                     "id": "obj-6",
-                    "index": 0,
+                    "index": 3,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "list" ],
                     "patching_rect": [ 537.2092831134796, 195.0, 30.0, 30.0 ]
                 }
             },
@@ -57,7 +57,7 @@
                 "box": {
                     "comment": "activate",
                     "id": "obj-117",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -168,11 +168,11 @@
                 "box": {
                     "comment": "signal in",
                     "id": "obj-47",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "signal" ],
                     "patching_rect": [ 300.0, 195.0, 30.0, 30.0 ]
                 }
             }
@@ -259,7 +259,6 @@
                 }
             }
         ],
-        "autosave": 0,
         "styles": [
             {
                 "name": "rnbolight",
