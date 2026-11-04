@@ -13,6 +13,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-34",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 258.0, 56.0, 101.0, 22.0 ],
+                    "text": "r imu-send-active"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-79",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -277,13 +288,11 @@
                 "box": {
                     "fontface": 0,
                     "id": "obj-81",
-                    "linecount": 12,
                     "maxclass": "o.display",
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 938.3928481936455, 89.28571343421936, 180.0, 175.0 ],
-                    "text": "/led/set/state : blob(-56, -56, -56, -1, -1, -1, -1, -1, -1, -1, -1, -1, -56, -56, -56, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1)"
+                    "patching_rect": [ 938.3928481936455, 89.28571343421936, 180.0, 33.0 ]
                 }
             },
             {
@@ -1117,6 +1126,13 @@
                 "patchline": {
                     "destination": [ "obj-12", 0 ],
                     "source": [ "obj-33", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-16", 0 ],
+                    "midpoints": [ 267.5, 88.0, 231.5, 88.0 ],
+                    "source": [ "obj-34", 0 ]
                 }
             },
             {
