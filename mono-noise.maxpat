@@ -120,7 +120,7 @@
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "int" ],
                     "patching_rect": [ 652.9850512742996, 132.08954751491547, 30.0, 30.0 ]
                 }
             },
