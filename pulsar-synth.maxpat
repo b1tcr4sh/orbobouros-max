@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 77.0, 1468.0, 713.0 ],
+        "rect": [ 34.0, 77.0, 1468.0, 753.0 ],
         "boxes": [
             {
                 "box": {
@@ -586,7 +586,7 @@
                     "numinlets": 5,
                     "numoutlets": 6,
                     "outlettype": [ "float", "float", "float", "float", "list", "" ],
-                    "patching_rect": [ 749.6644621491432, 396.6443125605583, 256.0, 64.0 ]
+                    "patching_rect": [ 1137.7192873954773, 150.0, 256.0, 64.0 ]
                 }
             },
             {
@@ -624,11 +624,12 @@
             {
                 "box": {
                     "id": "obj-32",
+                    "linecount": 3,
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "float", "bang" ],
-                    "patching_rect": [ 797.0297053456306, 351.48514956235886, 115.0, 22.0 ],
+                    "patching_rect": [ 1137.7192873954773, 87.45781528949738, 115.0, 50.0 ],
                     "text": "buffer~ #1 #2"
                 }
             },
