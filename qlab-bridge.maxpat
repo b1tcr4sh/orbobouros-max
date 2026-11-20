@@ -9,8 +9,32 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 111.0, 73.0, 1468.0, 713.0 ],
+        "rect": [ 34.0, 77.0, 1468.0, 753.0 ],
         "boxes": [
+            {
+                "box": {
+                    "comment": "",
+                    "id": "obj-1",
+                    "index": 1,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 60.0, 223.12137079238892, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-103",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 64.33566498756409, 73.38775444030762, 85.0, 22.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 657.7257691025734, 560.9770023822784, 85.0, 22.0 ],
+                    "text": "r qlab-cue-pos"
+                }
+            },
             {
                 "box": {
                     "id": "obj-23",
@@ -187,7 +211,7 @@
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "int" ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 460.1449313759804, 68.7485631108284, 30.0, 30.0 ]
                 }
             },
@@ -291,6 +315,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-10", 0 ],
+                    "source": [ "obj-103", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-22", 0 ],
                     "source": [ "obj-11", 0 ]
                 }
@@ -309,7 +339,15 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-1", 0 ],
+                    "order": 1,
+                    "source": [ "obj-23", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-11", 0 ],
+                    "order": 0,
                     "source": [ "obj-23", 0 ]
                 }
             },
